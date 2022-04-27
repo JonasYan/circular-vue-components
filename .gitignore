@@ -1,0 +1,11 @@
+*.log
+.DS_Store
+dist
+.cache
+.vscode
+.idea
+
+node_modules
+
+/test/dist
+yarn-error.log

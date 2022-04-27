@@ -1,0 +1,33 @@
+{
+  "name": "circular-vue-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "vue",
+    "webpack",
+    "circular dependency"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-example": "webpack-dev-server --config ./test/webpack.config.js",
+    "build-example": "webpack --config ./test/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasYan/circular-vue-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasYan/circular-vue-components/issues"
+  },
+  "homepage": "https://github.com/JonasYan/circular-vue-components#readme",
+  "devDependencies": {
+    "vue": "^3.2.33",
+    "vue-loader": "^17.0.0",
+    "webpack": "5",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
