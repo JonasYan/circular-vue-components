@@ -10,7 +10,7 @@ class CircularVueComponentsPlugin {
   apply(compiler) {
     compiler.hooks.compilation.tap(PluginTitle, (compilation) => {
       this.compilation = compilation
-      compilation.hooks.afterOptimizeModuleIds.tap(PluginTitle, (modules) => {
+      compilation.hooks.optimizeModules.tap(PluginTitle, (modules) => {
         const counted = {}
         for (const module of modules) {
           const resource = this.getResource(module)
