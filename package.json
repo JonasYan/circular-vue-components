@@ -1,7 +1,7 @@
 {
   "name": "circular-vue-components",
   "version": "1.0.0",
-  "description": "",
+  "description": "A webpack plugin that detect circular components in vue project",
   "main": "index.js",
   "keywords": [
     "vue",
